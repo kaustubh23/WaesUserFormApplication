@@ -54,7 +54,7 @@ public class WaesUserFormController extends SelectorComposer<Component> {
 	@NotifyChange({ "onSearch" })
 	public void onSearch() {
 		List<User> userList = new ArrayList<User>();
-		if (getUser().getSearchByuserName() != null && !getUser().getSearchByuserName().equalsIgnoreCase(USERNAME)) {
+		if (getUser().getSearchByuserName() != null && !getUser().getSearchByuserName().isEmpty()&& !getUser().getSearchByuserName().equalsIgnoreCase(USERNAME)) {
 			for (User user : getAllUserData()) {
 				if (getUser().getSearchByuserName() != null) {
 					if (getUser().getSearchByuserName().equalsIgnoreCase(user.getUserName())) {
