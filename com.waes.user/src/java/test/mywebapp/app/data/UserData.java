@@ -2,7 +2,7 @@ package mywebapp.app.data;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// Test Data for selenium test Cases 
 public class UserData {
 	
 	 private static List<UserInfo> user = new ArrayList<UserInfo>();

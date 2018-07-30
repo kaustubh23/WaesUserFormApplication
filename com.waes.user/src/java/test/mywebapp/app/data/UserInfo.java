@@ -1,5 +1,5 @@
 package mywebapp.app.data;
-
+//User Details model for selenium testing
 public class UserInfo {
 	
 	public UserInfo(String userName, String postTitle, int views, int likes){

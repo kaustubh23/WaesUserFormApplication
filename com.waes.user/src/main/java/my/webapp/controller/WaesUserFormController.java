@@ -16,7 +16,8 @@ import org.zkoss.zk.ui.select.SelectorComposer;
 import org.zkoss.zul.Messagebox;
 
 import my.webapp.model.User;
-
+//Author: Kaustubh Sharma
+//Main controller for user form application
 public class WaesUserFormController extends SelectorComposer<Component> {
 
 	private static final long serialVersionUID = 1L;

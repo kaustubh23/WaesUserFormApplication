@@ -1,7 +1,7 @@
 package my.webapp.model;
 
 import java.time.LocalDate;
-
+// User form customer model
 public class User {
 	private int select;
 	private int active;
