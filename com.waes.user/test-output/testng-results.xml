@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17956" started-at="2018-07-30T20:26:50Z" finished-at="2018-07-30T20:27:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17956" started-at="2018-07-30T20:26:50Z" finished-at="2018-07-30T20:27:08Z">
+      <class name="mywebapp.app.test.WaesUserFormTest">
+        <test-method status="PASS" signature="fillDetails()[pri:0, instance:mywebapp.app.test.WaesUserFormTest@1060b431]" name="fillDetails" duration-ms="9247" started-at="2018-07-30T20:26:50Z" finished-at="2018-07-30T20:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillDetails -->
+        <test-method status="PASS" signature="searchDetailsUser()[pri:0, instance:mywebapp.app.test.WaesUserFormTest@1060b431]" name="searchDetailsUser" duration-ms="8680" started-at="2018-07-30T20:26:59Z" finished-at="2018-07-30T20:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDetailsUser -->
+        <test-method status="PASS" signature="done()[pri:0, instance:mywebapp.app.test.WaesUserFormTest@1060b431]" name="done" is-config="true" duration-ms="0" started-at="2018-07-30T20:27:08Z" finished-at="2018-07-30T20:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+      </class> <!-- mywebapp.app.test.WaesUserFormTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
