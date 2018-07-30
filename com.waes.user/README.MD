@@ -27,6 +27,12 @@ h3. Add ZK archtype
 #  Catalog file- > http://mavensync.zkoss.org/maven2
 # Description -> ZK
 
+h4. Remaining Tasks
+# Generate graph report
+# Filter by other options
+# Improve date and time sorting
+
+
 
 
 
